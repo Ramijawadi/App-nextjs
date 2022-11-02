@@ -11,12 +11,12 @@ const Navbar = () => {
         <nav >
 
             <div className="logo">
-              <Image src='/apple.png' width={80} height={60} borderRadius={5} alt='image' />
+              <h2 className='pos-h2'>App</h2><Image src='/apple.png' width={80} height={60} borderRadius={5} alt='image' /><h2 className='pos2-h2'>Le</h2>
              </div>
             <Link href="/">Home</Link>
-            <Link href="/about">about</Link>
-            <Link href="/contact">contact</Link>
-            <Link href="/ramirez">RamiList</Link>
+            <Link href="/about">About</Link>
+            <Link href="/contact">Contact</Link>
+            <Link href="/ramirez">StoreList</Link>
 
         </nav>
         </>
